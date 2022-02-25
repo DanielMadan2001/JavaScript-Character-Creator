@@ -246,7 +246,7 @@ const skillComponents = function (character, randomButtonAll) {
     while (character.skill_points > 0) {
       let newSkillIndex = Math.ceil(Math.random() * Object.keys(character.skills).length)
       let newSkill = listOfSkills[newSkillIndex - 1]
-      if (!(newSkill in currentCharacter.inherentSkills) || !(currentCharacter.inherentSkills[newSkill])) {
+      if (!(newSkill.textContent in currentCharacter.inherentSkills) || !currentCharacter.inherentSkills[newSkill.textContent]) {
         console.log(newSkill)
         newSkill.click()
       }

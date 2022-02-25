@@ -31,12 +31,12 @@ h1{
   vertical-align: top;
   /* height: 30%; */
   display: inline-block;  
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 img {
   width: 40%;
-  /* padding-top: 5%; */
+  padding-top: 5%;
   padding-bottom: 5%;
   display: flex;
   margin-left: auto;
@@ -130,17 +130,6 @@ button {
   vertical-align: top;
   margin-top: 10%;
 }
-
-/* ------------------------------------------------------------------------ */
-
-/* h3 {
-  margin-top: 0px;
-} */
-
-/* table {
-  border: 1px solid black;
-  border-collapse: collapse;
-} */
 
 .sitefooter {
   margin-top: 1rem;
